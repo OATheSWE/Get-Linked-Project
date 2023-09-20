@@ -6,4 +6,3 @@ other - #903AFF, #D434FE
 
 
 font family - montserrat. Use regular texts and bold txts
-
