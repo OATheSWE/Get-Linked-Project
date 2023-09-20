@@ -1,0 +1,10 @@
+Git add .
+
+Git commit -m "Leg"
+
+git push main
+
+
+
+
+git pull main
