@@ -1,0 +1,21 @@
+/* Mobile Responsive For the Landing Page*/
+@media (min-width: 992px) {
+
+    .header {
+        padding: 0px 60px;
+    }
+
+    .header-right {
+        display: flex;
+    }
+
+    .header-right-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 992px) {
+    .header {
+        padding: 0px 45px;
+    }
+}

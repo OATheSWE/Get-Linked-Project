@@ -4,5 +4,6 @@ Body Background - #150E28
 
 other - #903AFF, #D434FE
 
+button - background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
 
 font family - montserrat. Use regular texts and bold txts
