@@ -92,7 +92,7 @@ p{
     margin-top: 40px;
 }
 .section-info1 p {
-    font-size: 15px;
+    font-size: 18px;
 }
 .section1 figure img{
     width:400px;
@@ -128,9 +128,10 @@ p{
 }
 .section-info2{
     margin-top: 100px;
+    margin-left: 70px;
 }
 .section-info2 p{
-    font-size: 15px;
+    font-size: 18px;
 }
 .chair{
     margin-top: -40px;
@@ -144,9 +145,12 @@ p{
 }
 .people{
     margin-top: 100px;
+    margin-left: 60px;
+    width:670px
+    
 }
 .section-info3 p{
-    font-size: 15px;
+    font-size: 18px;
 
 }
 .read{
@@ -160,8 +164,12 @@ p{
     margin-top: 90px;
 }
 .section-info4 p{
-    font-size: 15px;
+    font-size: 18px;
 }
 .man{
     margin-top: 80px;
+}
+.plus{
+   position: absolute;
+   left: 420px;
 }
