@@ -2,9 +2,9 @@ Git add .
 
 Git commit -m "Leg"
 
-git push main
+git push origin main
 
 
 
 
-git pull main
+git pull origin main
