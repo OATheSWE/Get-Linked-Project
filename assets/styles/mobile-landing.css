@@ -1,0 +1,130 @@
+/* Mobile Responsive For the Landing Page*/
+@media (min-width: 992px) {
+
+    .header {
+        padding: 0px 60px;
+    }
+
+    .header-right {
+        display: flex;
+    }
+
+    .header-right-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 992px) {
+    .header {
+        padding: 0px 45px;
+    }
+
+    .next h2{
+        text-align: center;
+        font-size: 18px;
+    }
+    .fff{
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+
+    .underling h1{
+        font-size:32px;
+        text-align: center;
+    }
+    .underling p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .separate1{
+        margin-left: 150px;
+        padding: 10px 30px;
+    }
+    .fire-chain{
+        top:250px;
+        left:500px;
+    }
+    .bulb{
+        position: relative;
+        left:-105px;
+        top:-10px;
+        width:30px
+    }
+
+    .section1 {
+        flex-direction: column;
+        margin-bottom: -20px;
+    }
+    .section1 figure img{
+    margin-left: 200px;
+        width:300px
+    
+    }
+    .section-info1 h2{
+        font-size: 18px;
+    }
+    .section-info1{
+        text-align: center;
+    }
+    .section-info1 p{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .section2{
+        flex-direction: column-reverse;
+        margin-bottom: 60px;
+    }
+    .section-info2 {
+        text-align: center;
+    }
+    .section-info2 h2{
+        font-size: 18px;
+    }
+    .chair{
+        width:600px;
+        place-items: center;
+        margin-left: 50px;
+        margin-bottom: -100px;
+    }
+    .section-info2 p{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .section3{
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+    .people{
+        width:600px;
+    }
+    .section-info3 {
+        text-align: center;
+        
+    }
+    .section-info3 h2{
+        font-size: 18px;
+    }
+    .section-info3 p{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .read a{
+        padding: 10px 30px;
+    }
+    .section4{
+        flex-direction: column;
+        margin-bottom: -20px;
+    }
+    .section-info4{
+         text-align: center;
+    }
+    .section-info4 h2{
+        font-size: 18px;
+    }
+    .section-info4 p{
+        font-size: 12px;
+    }
+    .man{
+        width: 500px;
+    }
+}
