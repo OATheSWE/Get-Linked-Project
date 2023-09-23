@@ -464,6 +464,12 @@ height: 741px;
   line-height: 20px;
 }
 
+.head2 {
+  display: none;
+}
+
+.section6 head
+
 .section6 .medals {
   display: flex;
   gap: 1rem;
