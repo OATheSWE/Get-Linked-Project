@@ -286,19 +286,19 @@ window.addEventListener("scroll", () => {
   handleScrollAnimation1();
 });
 
-// Assuming you have a select element with the id "mySelect"
-const select = document.getElementById("categorySelect");
 
+// HTML ACCORDION
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-  // Add an event listener to the select element
-  select.addEventListener("click", function () {
-    // Get the selected option
-    const selectedOption = select.options[select.selectedIndex];
-
-    // Get the value of the selected option
-    const selectedValue = selectedOption.value;
-
-    // Now, you can use the selectedValue in your JavaScript code
-    console.log("Selected Value:", selectedValue);
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
   });
-
+}
