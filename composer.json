@@ -1,0 +1,19 @@
+{
+    "name": "osborne-molen/get-linked-project",
+    "description": "My Website for a competition",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "OsborneMolen\\GetLinkedProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "OATheSWE",
+            "email": "osborneosas12@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}

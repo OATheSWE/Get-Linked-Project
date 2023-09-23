@@ -1,0 +1,82 @@
+.js-scroll2 {
+  opacity: 0;
+  transition: all 1s ease;
+  filter: blur(4px);
+  transform: translateX(-100%);
+  -webkit-filter: blur(4px);
+}
+
+.js-scroll2:nth-child(2) {
+  transition-delay: 100ms;
+  transform: translateX(-100%);
+}
+
+.js-scroll2:nth-child(3) {
+  transition-delay: 200ms;
+  transform: translateX(-100%);
+}
+
+.js-scroll2:nth-child(4) {
+  transition-delay: 300ms;
+  transform: translateX(-100%);
+}
+
+.js-scroll2:nth-child(5) {
+  transition-delay: 400ms;
+  transform: translateX(-100%);
+}
+
+.js-scroll2:nth-child(6) {
+  transition-delay: 500ms;
+  transform: translateX(-100%);
+}
+
+.js-scroll2.scrolled2 {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.js-scroll1 {
+  opacity: 0;
+  transition: all 1s ease;
+  filter: blur(4px);
+  transform: translateY(-10%);
+  -webkit-filter: blur(4px);
+}
+
+.js-scroll1.scrolled1 {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+
+.js-scroll3 {
+  opacity: 0;
+  transition: all 1s ease;
+  filter: blur(4px);
+  transform: translateY(-30%);
+  -webkit-filter: blur(4px);
+}
+
+.js-scroll3.scrolled3 {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+
+.js-scroll4 {
+  opacity: 0;
+  transition: all 1s ease;
+  filter: blur(4px);
+  transform: translateY(30%);
+  -webkit-filter: blur(4px);
+}
+
+.js-scroll4.scrolled4 {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+
+
